@@ -1,0 +1,162 @@
+body {
+  background-image: url('../images/Homework-5.png');
+  background-size: 1900px auto;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 896px;
+  padding: 62px;
+  background-color: #ffffff;
+  margin:  0 446px 246px 446px;
+}
+
+li, h3, span, .submenu_item {
+  font-family: 'Pathway Gothic One', Arial, sans-serif;
+}
+
+ul {
+  display: inline-block;
+  width: 830px;
+  padding: 92px 70px 94px 94px;
+  margin: 84px 480px 0 436px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.submenu {
+  position: relative;
+  display: none;
+  width: 10px;
+  height: 50px;
+  padding-top: 0;
+}
+
+.submenu_item {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  width: 40px;
+  height: 50px;
+}
+
+.menu_item:hover >.submenu {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  width: 136px;
+  height: 136px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-family: 'Dorsa', Arial, sans-serif;
+  font-size: 59px;
+  font-weight: 200;
+  margin: 0;
+  text-align: center;
+  line-height: 136px;
+}
+
+.logo, h3 {
+  color: #263555;
+}
+
+.image {
+  position: relative;
+}
+
+.places {
+  display: inline-block;
+  position: absolute;
+  width: 270px;
+  height: 119px;
+  bottom: 200px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.first_text, .second_text {
+  display: inline-block;
+  padding: 5px;
+}
+
+.first_text {
+  color: #263555;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+.second_text {
+  color: #ffffff;
+  background-color: #38afe5;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+span:hover {
+  opacity: 0.7;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 200;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.venice, .newyork, .paris {
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.block_venice, .block_newyork, .block_paris {
+  display: none;
+  position: absolute;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 10px;
+  background-color: #193149;
+  text-align: center;
+  width: 146px;
+  height: 269px;
+  bottom: 5px;
+}
+
+.venice:hover > .block_venice {
+  display: block;
+}
+
+.newyork:hover > .block_newyork {
+  display: block;
+}
+
+.paris:hover > .block_paris {
+  display: block;
+}
+
+.details_botton {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 0 13px;
+  border-radius: 10%;
+  left: 73px;
+  top: 250px;
+  border-color: 1px solid #000;
+}
