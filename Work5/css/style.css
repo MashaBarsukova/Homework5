@@ -1,15 +1,15 @@
 body {
   background-image: url('../images/Homework-5.png');
-  background-size: 1900px auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .wrapper {
-  position: relative; 
+  position: relative;
   width: 896px;
   padding: 62px;
   background-color: #ffffff;
-  margin:  0 446px 246px 446px;
+  margin:  0 446px auto;
 }
 
 li, h3, span, .submenu_item {
@@ -20,7 +20,7 @@ ul {
   display: inline-block;
   width: 830px;
   padding: 92px 70px 94px 94px;
-  margin: 84px 480px 0 436px;
+  margin: 0 480px auto;
   text-align: center;
 }
 
