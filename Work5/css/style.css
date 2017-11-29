@@ -5,6 +5,7 @@ body {
 }
 
 .wrapper {
+  position: relative; 
   width: 896px;
   padding: 62px;
   background-color: #ffffff;
