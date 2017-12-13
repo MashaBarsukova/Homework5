@@ -137,6 +137,10 @@ a {
   display: block;
 }
 
+nav a:hover {
+  color: #263555
+}
+
 .blue_botton {
   display: flex;
   position: absolute;
