@@ -9,7 +9,7 @@ body {
   width: 896px;
   padding: 62px;
   background-color: #ffffff;
-  margin:  0 446px auto;
+  margin: 0 auto;
 }
 
 li, h3, span, .submenu_item {
@@ -17,10 +17,10 @@ li, h3, span, .submenu_item {
 }
 
 ul {
-  display: inline-block;
+  position: relative;
   width: 830px;
   padding: 92px 70px 94px 94px;
-  margin: 0 480px auto;
+  margin: 0 auto;
   text-align: center;
 }
 
